@@ -46,6 +46,8 @@
 
   </style>
 
+      <link rel="stylesheet" href="sweetalert2.min.css">
+
 </head>
 
 
@@ -119,15 +121,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
             <div class="card bg-light">
               <article class="card-body mx-auto" style="max-width: 800px;">
                 <h4 class="card-title mt-3 text-center">Iniciar Sesión</h4>
@@ -135,7 +128,7 @@
 
 
                 <!-- INICIO FORMULARIO -->
-                <form method="post">
+                <form id="login-form">
                   <div class="form-group input-group">
 
                   
@@ -156,7 +149,7 @@
                           <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
                         </svg> </span>
 
-                    <input required class="form-control" placeholder="Nombre de Usuario" id="user" maxlength="5" type="text" title="Usuario.">
+                    <input required class="form-control" placeholder="Nombre de Usuario" id="user" type="text" title="Usuario.">
                   </div> 
 
 
@@ -197,22 +190,31 @@
                   <p class="text-center">¿Has olvidado tu contraseña? <a href="login.html">Restablecer</a> </p>
 
                   
-    <script>
-      function sesion() {
-          var user = document.getElementById("user").value;
-          var pass = document.getElementById("pass").value;
-          var location = URL('../index.html');
-
-          if (user == "admin" && pass == "1234") {
-              location.href(location);
-          } else {
-              alert("Este usuario no esta registrado.");
-          }
-      }
-
-
-
-  </script>
+                  <script>
+                    document.getElementById("login-form").addEventListener("submit", function(event) {
+                      // Evita que se envíe el formulario de forma predeterminada
+                      event.preventDefault();
+  
+                      // Obtén los valores del formulario
+                      var username = document.getElementById("user").value;
+                      var password = document.getElementById("pass").value;
+  
+                      // Verifica las credenciales del usuario
+                      if (username === "Isidro" && password === "Admin1234") {
+                        // Si las credenciales son correctas, redirige al usuario a la página deseada
+                        window.location.href = "../index.html";
+                      } else {
+                        // Si las credenciales son incorrectas, muestra un mensaje de error
+                        Swal.fire({
+                          icon: 'error',
+                          title: 'Ups...',
+                          text: 'Usuario o contraseña incorrectos.',
+                          footer: '<a href="register.html">¡Registrate aquí!</a>'
+                        })
+                      }
+                    });
+  
+                  </script>
 
                 </form>
               </article>
@@ -406,8 +408,12 @@
           </footer>
 
 
+          <!-- sweet -->
+          <script src="sweetalert2.all.min.js"></script>
+          <script src="sweetalert2.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-
+          <!-- boot -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
