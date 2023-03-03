@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>AtopeExtremeño</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="../style/footer.css">
+
+    <style>
+      *{
+          box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .divider-text {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.divider-text span {
+    padding: 7px;
+    font-size: 12px;
+    position: relative;   
+    z-index: 2;
+}
+.divider-text:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 55%;
+    left: 0;
+    z-index: 1;
+}
+
+
+  </style>
+
+</head>
+
+
+<body>
+    <!-- empieza el header -->
+    <header>
+        <!-- nav bar del header -->
+        <nav class="navbar navbar-expand-lg bg-light  flex-lg-row  d-sm-flex flex-sm-column d-flex flex-column">
+
+            <a href="../index.html"><img src="../img/logotipo.png" alt="logotipo de la página" id="logo"></a>
+
+            <!-- boton al lado de la foto -->
+            <div class="container-fluid">
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+                <!-- idioma -->
+                <span class="d-flex">
+
+                <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-globe-europe-africa" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM3.668 2.501l-.288.646a.847.847 0 0 0 1.479.815l.245-.368a.809.809 0 0 1 1.034-.275.809.809 0 0 0 .724 0l.261-.13a1 1 0 0 1 .775-.05l.984.34c.078.028.16.044.243.054.784.093.855.377.694.801-.155.41-.616.617-1.035.487l-.01-.003C8.274 4.663 7.748 4.5 6 4.5 4.8 4.5 3.5 5.62 3.5 7c0 1.96.826 2.166 1.696 2.382.46.115.935.233 1.304.618.449.467.393 1.181.339 1.877C6.755 12.96 6.674 14 8.5 14c1.75 0 3-3.5 3-4.5 0-.262.208-.468.444-.7.396-.392.87-.86.556-1.8-.097-.291-.396-.568-.641-.756-.174-.133-.207-.396-.052-.551a.333.333 0 0 1 .42-.042l1.085.724c.11.072.255.058.348-.035.15-.15.415-.083.489.117.16.43.445 1.05.849 1.357L15 8A7 7 0 1 1 3.668 2.501Z"/>
+                          </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Español</a></li>
+                          <li><a class="dropdown-item" href="#">Inglés</a></li>
+                          <li><a class="dropdown-item" href="#">Francés</a></li>
+                          <li><a class="dropdown-item" href="#">Ruso</a></li>
+                          <li><a class="dropdown-item" href="#">Portugués</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                      </ul>
+
+                    <!-- sesión -->
+                    <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                  </svg> Iniciar Sesión/Registrarse
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="login.html">Iniciar Sesión</a></li>
+                              <li><a class="dropdown-item" href="register.html">Registrarse</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        
+
+
+
+
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+          <main class="container mt-5 p-1">
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="card bg-light">
+              <article class="card-body mx-auto" style="max-width: 800px;">
+                <h4 class="card-title mt-3 text-center">Iniciar Sesión</h4>
+                <p class="text-center">Accede a tu cuenta.</p>
+
+
+                <!-- INICIO FORMULARIO -->
+                <form>
+                  <div class="form-group input-group">
+
+                  
+                  
+
+
+
+                  
+                  
+
+
+                  <!-- NOMBRE DE USUARIO -->
+                  <div class="form-group input-group mb-3">
+
+                      <span class="input-group-text text-success"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                        </svg> </span>
+
+                    <input required class="form-control" placeholder="Nombre de Usuario" maxlength="5" type="text" title="Usuario.">
+                  </div> 
+
+
+                  <!-- Contraseña -->
+                  <div class="form-group input-group mb-3">
+
+                      <span class="input-group-text text-success"> 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock" viewBox="0 0 16 16">
+                        <path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/>
+                      </svg> </span>
+
+                    <input required class="form-control" placeholder="Introduce la contraseña" type="password" title="Contraseña.">
+                    <script>
+                      
+                    </script>
+                  </div> 
+
+                  <div class="ms-1 form-check mb-3">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                    <label class="form-check-label" for="defaultCheck1">
+                      Recordar datos de inicio de sesión.
+                    </label>
+                  </div>
+
+
+                  </div>
+                  
+                  
+                  <!-- BOTON DE INICIO DE SESIÓN -->
+                  <div class="form-group d-flex justify-content-center mb-3">
+                    <button type="submit" class="btn btn-success btn-block w-100"> Registrarse </button>
+                  </div>
+                  
+                  <!-- REGISTRARSE, NO TIENE CUENTA -->
+                  <p class="text-center">¿No tienes cuenta? <a href="register.html">Registrarse</a> </p>
+
+                  <!-- OLVIDO DE CONTRASEÑA -->
+                  <p class="text-center">¿Has olvidado tu contraseña? <a href="login.html">Restablecer</a> </p>
+
+                </form>
+              </article>
+            </div> <!-- card.// -->
+
+            </div>
+            <!--container end.//-->
+
+            </article>
+
+
+
+
+
+
+
+
+
+          </main>
+
+
+
+
+
+    <!-- inicio del footer -->
+
+    <footer id="footer" class="border-dark border-5 border-top">
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      
+      
+      
+              <!-- conocenos -->
+            <div class="container">
+              <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <h5>Conócenos</h5>
+                  
+                  <ul class="list-unstyled ">
+                    <li><a><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telephone fnt" viewBox="0 0 16 16">
+                      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                    </svg> 924300094</a></li>
+                    <li><a><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
+                      <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                      <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                    </svg> 12:00 - 9:00</a></li>
+                    <li><a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                      <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                      <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                    </svg> C. Veredilla, 06830 La Zarza</a></li>
+                    <!-- <li><a></a></li> -->
+                  </ul>
+                </div>
+      
+                <!-- vinos destacados -->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <h5>Productos Populares</h5>
+      
+                  <ul class="list-unstyled quick-links">
+                    <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Vinos
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item text-success" href="#">Tinto</a></li>
+                            <li><a class="dropdown-item text-success" href="#">Añejo</a></li>
+                            <li><a class="dropdown-item text-success" href="#">Blanco</a></li>
+                            <li><a class="dropdown-item text-success" href="#">Rosado</a></li>
+                            <li><a class="dropdown-item text-success" href="#">Achampado</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                      
+                      
+                      <ul class="list-unstyled quick-links">
+                        <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                          <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Queso
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-success" href="#">Tortas del casar</a></li>
+                                <li><a class="dropdown-item text-success" href="#">De la Serena</a></li>
+                                <li><a class="dropdown-item text-success" href="#">Ibores</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                          
+                          <ul class="list-unstyled quick-links">
+                            <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pimentón
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-success" href="#">Dulce</a></li>
+                                    <li><a class="dropdown-item text-success" href="#">Picante</a></li>
+                                    <li><a class="dropdown-item text-success" href="#">Ahumado</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
+                              
+                              <ul class="list-unstyled quick-links">
+                                <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                                  <li class="nav-item dropdown">
+                                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Lomo
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item text-success" href="#">Embuchado</a></li>
+                                        <li><a class="dropdown-item text-success" href="#">Duroc</a></li>
+                                        <li><a class="dropdown-item text-success" href="#">Ibérico</a></li>
+                                        <li><a class="dropdown-item text-success" href="#">Bellota</a></li>
+                                      </ul>
+                                    </li>
+                                  </ul>
+                  </ul>
+                </div>
+      
+      
+      
+                <!-- newletter -->
+                <div class="col-xs-12 col-sm-4 col-md-4">
+      
+      
+                  <div class="panel panel-success text-light">
+                    <div class="panel-heading quick-links">
+                        <h5 class="panel-title ">
+                            <span class="glyphicon glyphicon-envelope"></span>  Suscribete
+                        </h5>
+                    </div>
+                    <div class="panel-body">
+                        <div class="media">
+                            <div class="media-body">
+                                <p class="margin-top-10 margin-bottom-20">
+                                  Escribe tu e-mail y entérate antes que nadie de nuestras ofertas.
+                                </p>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="newsletter-email" placeholder="Email">
+                                    </div>
+                                    <button type="submit" class="btn btn-default btn-block btn-success mt-2">Suscribirse</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+      
+      
+      
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+      
+      
+      
+      
+                </div>
+              </div>
+              <div>
+      
+              </div>
+      
+              <!-- redes sociales -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                  <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-android"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-apple"></i></a></li>
+                  </ul>
+                </div>
+                <hr>
+              </div>
+      
+      
+              <!-- copyrigth -->
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                  <p class="h6">&copy;AtopeExtremeño. Todos los derechos reservados.</p>
+                </div>
+                <hr>
+              </div>
+            </div>
+      
+      
+          </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,1135 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>AtopeExtremeño</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <!-- carousel links -->
+
+
+
+
+  <!-- local links -->
+    <link rel="stylesheet" href="style/footer.css">
+    
+
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .position-sticky{
+        z-index: 5;
+        top: 0;
+      }
+      #news{
+        background-color: rgba(65, 59, 59, 0.295);
+        border-radius: 40px;
+        border: 3px solid #000;
+        max-width: 70%;
+      }
+      #news img{
+        width: 50%;
+      }
+      #ab{
+        background-color: rgba(186, 215, 238, 0.164);
+        border-radius: 20px;
+        border: 3px solid #000;
+        max-width: 70%;
+      }
+      #ab img{
+        width: 70%;
+      }
+      #star-product{
+        background-color: rgba(219, 223, 134, 0.486);
+        border-radius: 20px;
+        border: 3px solid #000;
+      }
+  
+  </style>
+
+</head>
+
+
+<body>
+    <!-- empieza el header -->
+    <header>
+        <!-- nav bar del header -->
+        <nav class="navbar navbar-expand-lg bg-light  flex-lg-row  d-sm-flex flex-sm-column d-flex flex-column">
+
+            <a href="index.html"><img src="img/logotipo.png" alt="logotipo de la página" id="logo"></a>
+
+            <!-- boton al lado de la foto -->
+            <div class="container-fluid">
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+                <!-- idioma -->
+                <span class="d-flex">
+
+                <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-globe-europe-africa" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM3.668 2.501l-.288.646a.847.847 0 0 0 1.479.815l.245-.368a.809.809 0 0 1 1.034-.275.809.809 0 0 0 .724 0l.261-.13a1 1 0 0 1 .775-.05l.984.34c.078.028.16.044.243.054.784.093.855.377.694.801-.155.41-.616.617-1.035.487l-.01-.003C8.274 4.663 7.748 4.5 6 4.5 4.8 4.5 3.5 5.62 3.5 7c0 1.96.826 2.166 1.696 2.382.46.115.935.233 1.304.618.449.467.393 1.181.339 1.877C6.755 12.96 6.674 14 8.5 14c1.75 0 3-3.5 3-4.5 0-.262.208-.468.444-.7.396-.392.87-.86.556-1.8-.097-.291-.396-.568-.641-.756-.174-.133-.207-.396-.052-.551a.333.333 0 0 1 .42-.042l1.085.724c.11.072.255.058.348-.035.15-.15.415-.083.489.117.16.43.445 1.05.849 1.357L15 8A7 7 0 1 1 3.668 2.501Z"/>
+                          </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Español</a></li>
+                          <li><a class="dropdown-item" href="#">Inglés</a></li>
+                          <li><a class="dropdown-item" href="#">Francés</a></li>
+                          <li><a class="dropdown-item" href="#">Ruso</a></li>
+                          <li><a class="dropdown-item" href="#">Portugués</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <!-- idioma y monedas -->
+
+                    <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
+                              <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
+                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                              <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+                            </svg>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">€ - Euro</a></li>
+                            <li><a class="dropdown-item" href="#">$ - Dólar</a></li>
+                            <li><a class="dropdown-item" href="#">؋ - Afgani</a></li>
+                            <li><a class="dropdown-item" href="#">¥ - Yen</a></li>
+                            <li><a class="dropdown-item" href="#">£ - Libra</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                    <!-- sesión -->
+                    <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                  </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="user/login.html">Iniciar Sesión</a></li>
+
+                              <li><a class="dropdown-item" href="user/register.html">Registrarse</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        
+                <!-- carro de la compra -->
+                <form class="mb-2">
+                <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                  <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                </svg></button>
+              </form>
+            </span>
+
+                    <!-- buscar -->
+                <form class="d-flex mt-lg-0 mt-md-2 mb-lg-0 mb-md-2 me-2" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></button>
+                </form>
+
+
+
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-light position-sticky top-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Productos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+          </svg></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-end" id="navbarNavDropdown">
+
+          <ul class="navbar-nav d-flex justify-content-around w-100">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Vinos Blancos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                <li><a class="dropdown-item" href="#">Albariño</a></li>
+                <li><a class="dropdown-item" href="#">Verdejo</a></li>
+                <li><a class="dropdown-item" href="#">Moscado</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Vino Tinto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                <li><a class="dropdown-item" href="#">Syrah</a></li>
+                <li><a class="dropdown-item" href="#">Carmenere</a></li>
+                <li><a class="dropdown-item" href="#">Malbec</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Vinos achampados
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                <li><a class="dropdown-item" href="#">Subitem 3.1</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 3.2</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 3.3</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink4" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown 4
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
+                <li><a class="dropdown-item" href="#">Subitem 4.1</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 4.2</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 4.3</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink5" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">Dropdown 5
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
+                <li><a class="dropdown-item" href="#">Subitem 5.1</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 5.2</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 5.3</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink6" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown 6
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink6">
+                <li><a class="dropdown-item" href="#">Subitem 6.1</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 6.2</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 6.3</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink7" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown 7
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink7">
+                <li><a class="dropdown-item" href="#">Subitem 7.1</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 7.2</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 7.3</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink8" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown 8
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink8">
+                <li><a class="dropdown-item" href="#">Subitem 8.1</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 8.2</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 8.3</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink9" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown 9
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink9">
+                <li><a class="dropdown-item" href="#">Subitem 9.1</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 9.2</a></li>
+                <li><a class="dropdown-item" href="#">Subitem 9.3</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+
+    <main id="hero" class="container-fluid mt-1 w-100 p-1">
+      
+
+<section class="row col-12 d-flex justify-content-lg-between justify-content-md-center justify-content-center align-items-center">
+
+      <!-- aside PUBLICIDAD -->
+      <aside class="ms-1 row col-2 h-50 d-lg-flex flex-l d-md-none d-sm-none d-none mt-5">
+        
+        <h3 class="mb-5 text-center bg-success text-light border-0 boder-dark rounded-2">Publicidad</h3>
+        
+        <div class="card mb-3 p-2" id="ab" style="max-width: 540px;">
+
+          <div class="row g-0 text-success">
+
+            <div class="col-md-4 d-flex align-items-center">
+              <img src="img/aside1.png" class="p-1 img-fluid rounded-start" alt="...">
+            </div>
+
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">¡OFERTA!</h5>
+                <p class="card-text fw-bold">Vino de la Rioja</p>
+                <p class="card-text"><small class="text-muted text-decoration-line-through">14€</small><span class="text-danger"> 9,99€</span></p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="card mb-3 p-2" id="ab" style="max-width: 540px;">
+
+          <div class="row g-0 text-end text-success">
+  
+  
+  
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">¡OFERTA!</h5>
+                <p class="card-text fw-bold">Vino Puerta del Sol</p>
+                <p class="card-text"><span class="text-danger">10,87€ </span><small class="text-muted text-decoration-line-through">17€</small></p>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center">
+              <img src="img/aside2.png" class="img-fluid rounded-start" alt="...">
+            </div>
+          </div>
+  
+        </div>
+      </aside>
+
+
+
+      <!-- CENTRO -->
+  <section class="row col-8 d-flex align-content-center">
+    <article class=" p-3" id="center">
+        <!-- slider de imagenes -->
+        <div id="slider" class="justify-content-center d-lg-flex  d-md-none d-sm-none d-none col-12">
+
+          <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
+
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slider1.png" class="d-block w-100" alt="slider 1">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider2.png" class="d-block w-100" alt="slider 2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slider3.png" class="d-block w-100" alt="slider 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+
+
+          <!-- descripción -->
+        <div id="description" class=" d-flex justify-content-center col-md-12">
+          <div class="w-100 d-flex col-12  justify-content-center">
+
+              <p class=" text-center text-success font-monospace fw-bold fs-6">Un lugar dónde el sabor de
+                Extremadura está presente en todas sus variedades. Los mejores y más
+                representativos sabores de Extremadura hacia tu paladar, en donde se elaboran
+                mucho de los mejores manjares de nuestro país. Un sabor único, un sabor a
+                Extremadura</p>
+            </div>
+          
+        </div>
+      </article>
+    </section>
+
+    <!-- aside PRODUCTO ESTELAR -->
+    <aside class="row col-lg-2 col-12 h-100 d-flex p-2">
+      
+     <div class="ms-1"> 
+      <div class="card mb-5 m-auto ms-lg-0 " id="star-product" style="max-width: 540px;">
+        <p class="card-text h3 text-success fw-bold text-center border-bottom border-3 border-dark">¡Producto Estelar!</p>
+        <div class="row g-0 text-end text-light">
+
+          <div class="card-success m-auto" style="width: 20rem;">
+            <img src="img/estellar.png" class="card-img-top w-100 border-bottom border-3 border-dark" alt="pata de jamón">
+            <div class="card-body">
+              <div class="card-title text-danger h5 fw-bold">
+                <p id="demo"></p>
+                <p class="card-text"><span class="text-danger">63,19€ </span><small class="text-muted text-decoration-line-through">252,76€</small></p>
+
+
+
+
+                <!-- Script del contador -->
+                        <script>
+                          // Set the date we're counting down to
+                          var countDownDate = new Date("Apr 27, 2023 15:37:25").getTime();
+
+                          // Update the count down every 1 second
+                          var x = setInterval(function () {
+
+                            // Get today's date and time
+                            var now = new Date().getTime();
+
+                            // Find the distance between now and the count down date
+                            var distance = countDownDate - now;
+
+                            // Time calculations for days, hours, minutes and seconds
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                            // Output the result in an element with id="demo"
+                            document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+                              minutes + "m " + seconds + "s ";
+
+                            // If the count down is over, write some text 
+                            if (distance < 0) {
+                              clearInterval(x);
+                              document.getElementById("demo").innerHTML = "EXPIRED";
+                            }
+                          }, 1000);
+                        </script>
+              </div>
+              <p class="card-text h5 text-dark">Paleta de jamón Ibérica.</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </aside>
+
+
+
+        <!-- lista de ventajas -->
+
+        <section id="list" class="ms-3 row col-12 d-flex justify-content-center">
+            <ul class="list-group list-group-flush d-flex text-center fs-5 fw-semibold">
+                <li class="list-group-item ">Envio 48h</li>
+                <li class="list-group-item text-success"> Atención al cliente 24-7</li>
+                <li class="list-group-item"> Envios internacionales</li>
+                <li class="list-group-item text-success"> Ofertas diarias</li>
+              </ul>
+        </section>
+        
+    <!-- PRODUCTOS NUEVOS Y MAS VENDIDOS -->
+    <section class="container p-3 ms-2 text-center d-lg-flex  d-md-none d-sm-none d-none justify-content-center">
+      <article id="news" class="p-2">
+        <article class="row">
+          <p class="col-12 h1 text-center">
+            <i class="fa fa-star text-success"></i>
+            Destacados
+            <i class="fa fa-star text-success"></i>
+        </article>
+
+        <article id="carouselExampleFade" class="carousel slide carousel-fade row" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+
+              <div class="item-active">
+                <div class="row-fluid d-md-flex flex-md-row justify-content-center align-items-center d-sm-flex flex-sm-column d-flex flex-column">
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-success p-1">Oferta</p>
+                      <img src="img/carousel1.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Exopto</p>
+                      <p class="card-text "><small class="text-muted text-decoration-line-through">12€</small><span
+                          class="text-danger h5"> 9,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.10/5</p>
+                      <p class=""><span class="text-danger"> Agotado</span> | Vinos</p>
+
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-dark p-1">Nuevos</p>
+
+                      <img src="img/carousel2.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Valdoneje</p>
+                      <p class="card-text"><span class="text-dark h5"> 18,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.75/5</p>
+                      <p class="">En stock | Vinos</p>
+
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-success p-1">Oferta</p>
+                      <img src="img/carousel3.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Laya</p>
+                      <p class="card-text"><small class="text-muted text-decoration-line-through">18€</small><span
+                          class="text-danger h5"> 11,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.50/5</p>
+                      <p class=""><span class="text-danger"> Agotado</span> | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-dark p-1">Nuevos</p>
+                      <img src="img/carousel4.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Beferia</p>
+                      <p class="card-text"><span class="text-dark h5"> 15,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.50/5</p>
+                      <p class="">En stock | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+                </div>
+                <!--/row-fluid-->
+              </div>
+              <!--/item-->
+
+
+            </div>
+            <div class="carousel-item">
+
+              <div class="item">
+                <div class="row-fluid d-flex d-md-flex flex-md-row justify-content-center align-items-center d-sm-flex flex-sm-column d-flex flex-column">
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-success p-1">Oferta</p>
+                      <img src="img/carousel5.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Castillo</p>
+                      <p class="card-text"><small class="text-muted text-decoration-line-through">32€</small><span
+                          class="text-danger h5"> 24,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.75/5</p>
+                      <p class="">En stock | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-dark p-1">Nuevos</p>
+                      <img src="img/carousel6.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Bierzo</p>
+                      <p class="card-text"><span class="text-dark h5"> 32,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.35/5</p>
+                      <p class=""><span class="text-danger"> Agotado</span> | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-success p-1">Oferta</p>
+                      <img src="img/carousel7.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Remelluri</p>
+                      <p class="card-text"><small class="text-muted text-decoration-line-through">25€</small><span
+                          class="text-danger h5"> 18,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.85/5</p>
+                      <p class="">En stock | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-dark p-1">Nuevos</p>
+                      <img src="img/carousel8.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Ulfreia</p>
+                      <p class="card-text"><span class="text-dark h5"> 23,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.95/5</p>
+                      <p class=""><span class="text-danger"> Agotado</span> | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+                </div>
+                <!--/row-fluid-->
+              </div>
+              <!--/item-->
+
+            </div>
+            <div class="carousel-item">
+
+              <div class="item">
+                <div class="row-fluid d-flex d-md-flex flex-md-row justify-content-center align-items-center d-sm-flex flex-sm-column d-flex flex-column">
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-success p-1">Oferta</p>
+                      <img src="img/carousel9.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Pétalos</p>
+                      <p class="card-text"><small class="text-muted text-decoration-line-through">17€</small><span
+                          class="text-danger h5"> 10,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.75/5</p>
+                      <p class="">En stock | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-dark p-1">Nuevos</p>
+                      <img src="img/carousel10.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Martinet</p>
+                      <p class="card-text"><span class="text-dark h5"> 12,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.15/5</p>
+                      <p class="">En stock | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-success p-1">Oferta</p>
+                      <img src="img/carousel11.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4 ">Albarei</p>
+                      <p class="card-text"><small class="text-muted text-decoration-line-through">26€</small><span
+                          class="text-danger h5"> 19,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.35/5</p>
+                      <p class="">En stock | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg>
+                      </button>
+                      </form>
+                    </a></div>
+
+                  <div class="col-3"><a href="#x" class="thumbnail text-center text-decoration-none text-dark">
+                      <p class="h3 text-bg-dark p-1">Nuevos</p>
+                      <img src="img/carousel12.jpg" alt="Image" style="max-width:100%;" />
+                      <p class="h4">Godelia</p>
+                      <p class="card-text"><span class="text-dark h5"> 24,99€</span></p>
+                      <p class=" text-warning fw-bold"><span class="text-dark"> Puntuación:</span> 4.50/5</p>
+                      <p class="">En stock | Vinos</p>
+                      <form class="mb-2">
+                        <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                          <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                        </svg></button>
+                      </form>
+                    </a></div>
+                </div>
+                <!--/row-fluid-->
+              </div>
+              <!--/item-->
+
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </article>
+      </article>
+    </section>
+  
+
+    <!-- reseñas -->
+
+    <section class="d-flex flex-column align-items-center ms-3">
+
+
+      <!-- titulo reseñas -->
+      <h5 class="h5 fs-1"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-left-heart text-success" viewBox="0 0 16 16">
+        <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1h12ZM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Z"/>
+        <path d="M8 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+      </svg>
+      Reseñas
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-right-heart text-success" viewBox="0 0 16 16">
+        <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2Zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12Z"/>
+        <path d="M8 3.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+      </svg>
+    </h5>
+
+
+
+
+    <!-- grgupo de targetas -->
+
+        <div class="card-group">
+
+          <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+              </svg> Usuario1
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <!-- estrellas -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </h5>
+              <p class="card-text">Un tinto denso, muy pulido, con taninos hermosos y sabores complejos de frutos del bosque, ciruelas y nueces con algunas hierbas frescas y especias que se manifiestan sutilmente al final. </p>
+            </div>
+          </div>
+
+          <div class="card text-dark bg-white mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+              </svg> Usuario2
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <!-- estrellas -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </h5>
+              <p class="card-text">Vino de un color cereza picota de intensidad media. De ribete y capa medios, presenta lágrima moderada y lenta. Sin sedimentos...</p>
+            </div>
+          </div>
+
+
+          <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                class="bi bi-person" viewBox="0 0 16 16">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+              </svg> Usuario3
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <!-- estrellas -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+              </h5>
+              <p class="card-text">Muy exelente esta muy bueno es lo que jamas he visto.</p>
+            </div>
+          </div>
+
+
+          <div class="card text-dark bg-white mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+              </svg> Usuario4
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+                <!-- estrellas -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                  <path d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z"/>
+                </svg>
+              </h5>
+              <p class="card-text">Los mejores vinos que he probado.</p>
+            </div>
+          </div>
+
+
+          <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+            <div class="card-header">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+              </svg> Usuario5
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">
+
+                <!-- estrellas -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-star-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                  <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                </svg>
+
+              </h5>
+              <p class="card-text">Siempre contestan a todos las preguntas con mucha amabilidad, y te dan soluciones.</p>
+            </div>
+          </div>
+
+        </div>
+
+        
+    </section>
+  </main>
+
+
+
+
+
+    <!-- inicio del footer -->
+
+    <footer id="footer" class="border-dark border-5 border-top">
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+        <!-- conocenos -->
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Conócenos</h5>
+            
+            <ul class="list-unstyled ">
+              <li><a><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telephone fnt" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+              </svg> 924300094</a></li>
+              <li><a><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
+                <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+              </svg> 12:00 - 9:00</a></li>
+              <li><a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg> C. Veredilla, 06830 La Zarza</a></li>
+              <!-- <li><a></a></li> -->
+            </ul>
+          </div>
+
+          <!-- vinos destacados -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Productos Populares</h5>
+
+            <ul class="list-unstyled quick-links">
+              <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Vinos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-success" href="#">Tinto</a></li>
+                      <li><a class="dropdown-item text-success" href="#">Añejo</a></li>
+                      <li><a class="dropdown-item text-success" href="#">Blanco</a></li>
+                      <li><a class="dropdown-item text-success" href="#">Rosado</a></li>
+                      <li><a class="dropdown-item text-success" href="#">Achampado</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                
+                <ul class="list-unstyled quick-links">
+                  <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Queso
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-success" href="#">Tortas del casar</a></li>
+                          <li><a class="dropdown-item text-success" href="#">De la Serena</a></li>
+                          <li><a class="dropdown-item text-success" href="#">Ibores</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <ul class="list-unstyled quick-links">
+                      <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Pimentón
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-success" href="#">Dulce</a></li>
+                              <li><a class="dropdown-item text-success" href="#">Picante</a></li>
+                              <li><a class="dropdown-item text-success" href="#">Ahumado</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        
+                        <ul class="list-unstyled quick-links">
+                          <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Lomo
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item text-success" href="#">Embuchado</a></li>
+                                  <li><a class="dropdown-item text-success" href="#">Duroc</a></li>
+                                  <li><a class="dropdown-item text-success" href="#">Ibérico</a></li>
+                                  <li><a class="dropdown-item text-success" href="#">Bellota</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+            </ul>
+          </div>
+
+
+
+          <!-- newletter -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+
+
+            <div class="panel panel-success text-light">
+              <div class="panel-heading quick-links">
+                  <h5 class="panel-title ">
+                      <span class="glyphicon glyphicon-envelope"></span>  Suscribete
+                  </h5>
+              </div>
+              <div class="panel-body">
+                  <div class="media">
+                      <div class="media-body">
+                          <p class="margin-top-10 margin-bottom-20">
+                            Escribe tu e-mail y entérate antes que nadie de nuestras ofertas.
+                          </p>
+                          <form>
+                              <div class="form-group">
+                                  <input type="email" class="form-control" id="newsletter-email" placeholder="Email">
+                              </div>
+                              <button type="submit" class="btn btn-default btn-block btn-success mt-2">Suscribirse</button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+
+
+
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+
+
+
+
+          </div>
+        </div>
+        <div>
+
+        </div>
+
+        <!-- redes sociales -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-android"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-apple"></i></a></li>
+            </ul>
+          </div>
+          <hr>
+        </div>
+
+
+        <!-- copyrigth -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <p class="h6">&copy;AtopeExtremeño. Todos los derechos reservados.</p>
+          </div>
+          <hr>
+        </div>
+      </div>
+
+
+    </footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script>
+    $(document).ready(function() {
+    $('#myCarousel').carousel({
+	    interval: 100000
+	})
+});
+  </script>
+</body>
+
+</html>
+
