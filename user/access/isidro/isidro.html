@@ -25,12 +25,11 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item "><h4 class=" text-light">Isidro Regañas Molina</h4></li>
+                    <li class="nav-item"><h6 class=" text-light"><i class="fa fa-building"></i> Profesor</h6></li>
+                    <li class="nav-item"><h6 class=" text-light"><i class="fa fa-mail-bulk"></i> iregannasm01@educarex.es</h6></li>
+                    <li class="nav-item"><h6 class=" text-light"><i class="fa fa-phone"></i> +34 924 60 60 89</h6></li>
+                    <li class="nav-item"><h6 class=" text-light"><i class="fa fa-house-user"></i> C. Veredilla, 06830 La Zarza, Badajoz</h6></li>
                 </ul>
             </div>
         </nav>
@@ -46,7 +45,7 @@
                       
 
                         
-                      <a class="btn btn-danger btn-lg" href="#!">Cerrar Sesión</a>
+                      <a class="btn btn-danger btn-lg" href="../../../index.html">Cerrar Sesión</a>
                   </div>
               </div>
           </form>
@@ -57,12 +56,15 @@
           <div class="container px-lg-5">
               <!-- Page Features-->
               <div class="row gx-lg-5">
+
+
+                <!-- PRIMERA COSA -->
                   <div class="col-lg-6 mb-5">
                       <div class="card bg-light border-0 h-100">
                           <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
                               <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
                               <h2 class="fs-4 fw-bold">Perfil</h2>
-                              <p class="mb-0">With Bootstrap 5, we've created a fresh new layout for this template!</p>
+                              <p class="mb-0">Cambia tu nombre de usuario, correo electronico, dirección, metodos de pago...</p>
 
 
                               <button type="button" class="btn btn-success btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -72,15 +74,171 @@
                                 <div class="modal-dialog">
                                   <div class="modal-content">
                                     <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
                                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                      ...
+                                        <div class="card">
+                                            <div class="card-body">
+                                              <h5 class="card-title p-2 border-2 border-bottom border-dark">Opciones de edición de perfil</h5>
+                                              <div class="container mt-3">
+                                                <div class="row justify-content-center">
+                                                  <div class="col-md-12">
+                                                    
+                                                    <form>
+                                            
+                                                      <div class="mb-3">
+                                                        <label for="username" class="form-label">Nombre de usuario</label>
+                                                        <input type="text" class="form-control" id="username" name="username" placeholder="Cambia tu nombre de usuario">
+                                                      </div>
+                                            
+                                                      <div class="mb-3">
+                                                        <label for="password" class="form-label">Contraseña</label>
+                                                        <input type="password" class="form-control" id="password" name="password" placeholder="Ingresa una nueva contraseña">
+                                                      </div>
+                                            
+                                                      <div class="mb-3">
+                                                        <label for="address" class="form-label">Dirección de correo electrónico</label>
+                                                        <input class="form-control" id="address" name="address" rows="3" placeholder="Combia tu dirección de correo electrónico"></input>
+                                                      </div>
+                                            
+                                                      <div class="mb-3">
+                                                        <label for="payment" class="form-label">Método de pago</label>
+                                                        <select class="form-select" id="payment" name="payment">
+                                                          <option selected disabled>Selecciona tu método de pago</option>
+                                                          <option value="visa">Visa</option>
+                                                          <option value="mastercard">Mastercard</option>
+                                                          <option value="paypal">PayPal</option>
+                                                        </select>
+                                                      </div>
+                                            
+                                                    </form>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
                                     </div>
                                     <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                      <button type="button" class="btn btn-primary">Save changes</button>
+                                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                      <button type="button" class="btn btn-success" data-bs-dismiss="modal">Actualizar cambios</button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+
+
+                          </div>
+                      </div>
+                  </div>
+
+                  <!-- SEGUNDA COSA -->
+                  <div class="col-lg-6 mb-5">
+                      <div class="card bg-light border-0 h-100">
+                          <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                              <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
+                              <h2 class="fs-4 fw-bold">Pedidos y Productos</h2>
+                              <p class="mb-0">Observa el seguimiento de tus pedidos, incidencias, pagos, recibos y deseados.</p>
+
+
+                              <button type="button" class="btn btn-success btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                Gestionar Perfil
+                              </button>
+                              <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="card">
+                                            <div class="card-body">
+                                              <h5 class="card-title p-2 border-2 border-bottom border-dark">Movimientos de pedidos</h5>
+                                              <div class="container mt-3">
+                                                <div class="row justify-content-center">
+                                                  <div class="col-md-12">
+                                                    
+
+                                                    <div class="card w-100">
+                                                        <div class="card-header bg-primary text-white">
+                                                          <h4>Seguimiento de pedidos</h4>
+                                                        </div>
+                                                        <div class="card-body">
+                                                          <ul class="nav nav-pills nav-fill mb-4" id="myTab" role="tablist">
+                                                            <li class="nav-item" role="presentation">
+                                                              <button class="nav-link active" id="pedidos-tab" data-bs-toggle="tab" data-bs-target="#pedidos" type="button" role="tab" aria-controls="pedidos" aria-selected="true">Pedidos</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                              <button class="nav-link" id="incidencias-tab" data-bs-toggle="tab" data-bs-target="#incidencias" type="button" role="tab" aria-controls="incidencias" aria-selected="false">Incidencias</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                              <button class="nav-link" id="pagos-tab" data-bs-toggle="tab" data-bs-target="#pagos" type="button" role="tab" aria-controls="pagos" aria-selected="false">Pagos</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                              <button class="nav-link" id="recibos-tab" data-bs-toggle="tab" data-bs-target="#recibos" type="button" role="tab" aria-controls="recibos" aria-selected="false">Recibos</button>
+                                                            </li>
+                                                            <li class="nav-item" role="presentation">
+                                                                <button class="nav-link" id="deseado-tab" data-bs-toggle="tab" data-bs-target="#deseado" type="button" role="tab" aria-controls="deseado" aria-selected="false">Lista de Deseos</button>
+                                                              </li>
+                                                          </ul>
+                                                          <div class="tab-content" id="myTabContent">
+                                                            <div class="tab-pane fade show active" id="pedidos" role="tabpanel" aria-labelledby="pedidos-tab">
+                                                              <h5 class="card-title">Pedidos</h5>
+                                                              <p class="card-text">Aquí puedes ver el estado de tus pedidos:</p>
+                                                              <ul>
+                                                                <li>Pedido 1: En proceso de envío</li>
+                                                                <li>Pedido 2: Entregado</li>
+                                                                <li>Pedido 3: Cancelado</li>
+                                                              </ul>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="incidencias" role="tabpanel" aria-labelledby="incidencias-tab">
+                                                              <h5 class="card-title">Incidencias</h5>
+                                                              <p class="card-text">Aquí puedes ver las incidencias relacionadas con tus pedidos:</p>
+                                                              <ul>
+                                                                <li>Incidencia 1: Producto dañado</li>
+                                                                <li>Incidencia 2: Retraso en el envío</li>
+                                                                <li>Incidencia 3: Producto equivocado</li>
+                                                              </ul>
+                                                            </div>
+                                                            <div class="tab-pane fade" id="pagos" role="tabpanel" aria-labelledby="pagos-tab">
+                                                                <h5 class="card-title">Pagos</h5>
+                                                                <p class="card-text">Aquí puedes ver el estado de tus pagos:</p>
+                                                                <ul>
+                                                                  <li>Pago 1: Pendiente</li>
+                                                                  <li>Pago 2: Realizado</li>
+                                                                  <li>Pago 3: Rechazado</li>
+                                                                </ul>
+                                                              </div>
+                                                              <div class="tab-pane fade" id="recibos" role="tabpanel" aria-labelledby="recibos-tab">
+                                                                <h5 class="card-title">Recibos</h5>
+                                                                <p class="card-text">Aquí puedes descargar tus recibos:</p>
+                                                                <ul>
+                                                                  <li>Recibo 1: Descargar</li>
+                                                                  <li>Recibo 2: Descargar</li>
+                                                                  <li>Recibo 3: Descargar</li>
+                                                                </ul>
+                                                              </div>
+                                                              <div class="tab-pane fade" id="deseado" role="tabpanel" aria-labelledby="deseado-tab">
+                                                                <h5 class="card-title">Deseos</h5>
+                                                                <p class="card-text">Aquí puedes ver tu lista de deseos:</p>
+                                                                <ul>
+                                                                  <li>Deseo 1: Vino Tinto</li>
+                                                                  <li>Deseo 2: Vino Blanco</li>
+                                                                  <li>Deseo 3: Vino Añejo</li>
+                                                                </ul>
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                    
+
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
                                     </div>
                                   </div>
                                 </div>
@@ -93,112 +251,6 @@
                   </div>
 
 
-                  <div class="col-lg-6 mb-5">
-                      <div class="card bg-light border-0 h-100">
-                          <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                              <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
-                              <h2 class="fs-4 fw-bold">Perfil</h2>
-                              <p class="mb-0">With Bootstrap 5, we've created a fresh new layout for this template!</p>
-
-
-                              <button type="button" class="btn btn-success btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                Gestionar Perfil
-                              </button>
-                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog">
-                                  <div class="modal-content">
-                                    <div class="modal-header">
-                                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                      ...
-                                    </div>
-                                    <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                      <button type="button" class="btn btn-primary">Save changes</button>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-
-
-
-                          </div>
-                      </div>
-                  </div>
-
-
-                  <div class="col-lg-6 mb-5">
-                    <div class="card bg-light border-0 h-100">
-                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
-                            <h2 class="fs-4 fw-bold">Perfil</h2>
-                            <p class="mb-0">With Bootstrap 5, we've created a fresh new layout for this template!</p>
-
-
-                            <button type="button" class="btn btn-success btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                              Gestionar Perfil
-                            </button>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                  </div>
-                                  <div class="modal-body">
-                                    ...
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-6 mb-5">
-                    <div class="card bg-light border-0 h-100">
-                        <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
-                            <h2 class="fs-4 fw-bold">Perfil</h2>
-                            <p class="mb-0">With Bootstrap 5, we've created a fresh new layout for this template!</p>
-
-
-                            <button type="button" class="btn btn-success btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                              Gestionar Perfil
-                            </button>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                              <div class="modal-dialog">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                  </div>
-                                  <div class="modal-body">
-                                    ...
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                </div>
 
               </div>
           </div>
