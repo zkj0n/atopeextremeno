@@ -189,7 +189,7 @@
                   <!-- OLVIDO DE CONTRASEÑA -->
                   <p class="text-center">¿Has olvidado tu contraseña? <a href="login.html">Restablecer</a> </p>
 
-                  
+                  <!-- SCRIPT ISIDRO -->
                   <script>
                     document.getElementById("login-form").addEventListener("submit", function(event) {
                       // Evita que se envíe el formulario de forma predeterminada
@@ -200,9 +200,36 @@
                       var password = document.getElementById("pass").value;
   
                       // Verifica las credenciales del usuario
-                      if (username === "isidro" && password === "Admin1234") {
+                      if (username === "isidro" && password === "Isidro1234") {
                         // Si las credenciales son correctas, redirige al usuario a la página deseada
                         window.location.href = "access/isidro/isidro.html";
+                      } else {
+                        // Si las credenciales son incorrectas, muestra un mensaje de error
+                        Swal.fire({
+                          icon: 'error',
+                          title: 'Ups...',
+                          text: 'Usuario o contraseña incorrectos.',
+                          footer: '<a href="register.html">¡Registrate aquí!</a>'
+                        })
+                      }
+                    });
+  
+                  </script>
+
+                  <!-- SCRIPT ADMINISTRADOR -->
+                  <script>
+                    document.getElementById("login-form").addEventListener("submit", function(event) {
+                      // Evita que se envíe el formulario de forma predeterminada
+                      event.preventDefault();
+  
+                      // Obtén los valores del formulario
+                      var username = document.getElementById("user").value;
+                      var password = document.getElementById("pass").value;
+  
+                      // Verifica las credenciales del usuario
+                      if (username === "admin" && password === "Admin1234") {
+                        // Si las credenciales son correctas, redirige al usuario a la página deseada
+                        window.location.href = "access/admin.html";
                       } else {
                         // Si las credenciales son incorrectas, muestra un mensaje de error
                         Swal.fire({
