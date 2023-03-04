@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>AtopeExtremeño</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+      <!-- carousel links -->
+
+<!-- font awesome -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- local links -->
+    <link rel="stylesheet" href="../style/footer.css">
+    
+
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .position-sticky{
+        z-index: 5;
+        top: 0;
+      }
+      .card #img{
+        width: 50%;
+        align-self: center;
+      }
+      .card{
+        display: flex;
+        flex-direction: column;
+      }
+  
+  </style>
+
+</head>
+
+
+<body>
+    <!-- empieza el header -->
+    <header>
+        <!-- nav bar del header -->
+        <nav class="navbar navbar-expand-lg bg-light  flex-lg-row  d-sm-flex flex-sm-column d-flex flex-column">
+
+            <a href="../index.html"><img src="../img/logotipo.png" alt="logotipo de la página" id="logo"></a>
+
+            <!-- boton al lado de la foto -->
+            <div class="container-fluid">
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+
+                <!-- idioma -->
+                <span class="d-flex">
+
+                <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-globe-europe-africa" viewBox="0 0 16 16">
+                            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0ZM3.668 2.501l-.288.646a.847.847 0 0 0 1.479.815l.245-.368a.809.809 0 0 1 1.034-.275.809.809 0 0 0 .724 0l.261-.13a1 1 0 0 1 .775-.05l.984.34c.078.028.16.044.243.054.784.093.855.377.694.801-.155.41-.616.617-1.035.487l-.01-.003C8.274 4.663 7.748 4.5 6 4.5 4.8 4.5 3.5 5.62 3.5 7c0 1.96.826 2.166 1.696 2.382.46.115.935.233 1.304.618.449.467.393 1.181.339 1.877C6.755 12.96 6.674 14 8.5 14c1.75 0 3-3.5 3-4.5 0-.262.208-.468.444-.7.396-.392.87-.86.556-1.8-.097-.291-.396-.568-.641-.756-.174-.133-.207-.396-.052-.551a.333.333 0 0 1 .42-.042l1.085.724c.11.072.255.058.348-.035.15-.15.415-.083.489.117.16.43.445 1.05.849 1.357L15 8A7 7 0 1 1 3.668 2.501Z"/>
+                          </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Español</a></li>
+                          <li><a class="dropdown-item" href="#">Inglés</a></li>
+                          <li><a class="dropdown-item" href="#">Francés</a></li>
+                          <li><a class="dropdown-item" href="#">Ruso</a></li>
+                          <li><a class="dropdown-item" href="#">Portugués</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                    <!-- idioma y monedas -->
+
+                    <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-coin" viewBox="0 0 16 16">
+                              <path d="M5.5 9.511c.076.954.83 1.697 2.182 1.785V12h.6v-.709c1.4-.098 2.218-.846 2.218-1.932 0-.987-.626-1.496-1.745-1.76l-.473-.112V5.57c.6.068.982.396 1.074.85h1.052c-.076-.919-.864-1.638-2.126-1.716V4h-.6v.719c-1.195.117-2.01.836-2.01 1.853 0 .9.606 1.472 1.613 1.707l.397.098v2.034c-.615-.093-1.022-.43-1.114-.9H5.5zm2.177-2.166c-.59-.137-.91-.416-.91-.836 0-.47.345-.822.915-.925v1.76h-.005zm.692 1.193c.717.166 1.048.435 1.048.91 0 .542-.412.914-1.135.982V8.518l.087.02z"/>
+                              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                              <path d="M8 13.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11zm0 .5A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"/>
+                            </svg>
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">€ - Euro</a></li>
+                            <li><a class="dropdown-item" href="#">$ - Dólar</a></li>
+                            <li><a class="dropdown-item" href="#">؋ - Afgani</a></li>
+                            <li><a class="dropdown-item" href="#">¥ - Yen</a></li>
+                            <li><a class="dropdown-item" href="#">£ - Libra</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                    <!-- sesión -->
+                    <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                  </svg>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="../user/login.html">Iniciar Sesión</a></li>
+
+                              <li><a class="dropdown-item" href="../user/register.html">Registrarse</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        
+                <!-- carro de la compra -->
+                <form class="mb-2">
+                <button class="btn btn-outline-success mt-md-0  me-1" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                  <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                </svg></button>
+              </form>
+            </span>
+
+                    <!-- buscar -->
+                <form class="d-flex mt-lg-0 mt-md-2 mb-lg-0 mb-md-2 me-2" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-outline-success" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg></button>
+                </form>
+
+
+
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <nav class="navbar navbar-expand-xl navbar-light bg-light position-sticky top-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Productos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
+            <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h1v-5a1 1 0 0 1 1-1h3a1 1 0 0 1 1 1v5h6V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zM4 15h3v-5H4v5zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3zm3 0h-2v3h2v-3z"/>
+          </svg></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-end" id="navbarNavDropdown">
+
+          <ul class="navbar-nav d-flex justify-content-around w-100">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-wine-glass-alt text-danger"></i>
+                Vinos Blancos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+                <li><a class="dropdown-item" href="wine.html">Crianza</a></li>
+                <li><a class="dropdown-item" href="#">Reserva</a></li>
+                <li><a class="dropdown-item" href="#">Gran Reserva</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-wine-glass-alt text-danger"></i>
+
+                Vino Tinto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+                <li><a class="dropdown-item" href="#">Crianza</a></li>
+                <li><a class="dropdown-item" href="#">Reserva</a></li>
+                <li><a class="dropdown-item" href="#">Gran Reserva</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-wine-glass-alt text-danger"></i>
+
+                Vinos achampados
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
+                <li><a class="dropdown-item" href="#">Crianza</a></li>
+                <li><a class="dropdown-item" href="#">Reserva</a></li>
+                <li><a class="dropdown-item" href="#">Gran Reserva</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink4" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-cheese text-warning"></i>
+
+                Quesos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink4">
+                <li><a class="dropdown-item" href="cheese.html">Fresco</a></li>
+                <li><a class="dropdown-item" href="#">Blandos</a></li>
+                <li><a class="dropdown-item" href="#">Semiduros</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink5" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-cheese text-warning"></i>
+
+                
+                Tortas de queso
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink5">
+                <li><a class="dropdown-item" href="#">Torta del Casar</a></li>
+                <li><a class="dropdown-item" href="#">Torta de la Serena</a></li>
+                <li><a class="dropdown-item" href="#">Tortas de Oveja</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink6" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-utensils text-secondary"></i>
+
+                Jamón Serrano
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink6">
+                <li><a class="dropdown-item" href="#">Bodega</a></li>
+                <li><a class="dropdown-item" href="#">Reserva</a></li>
+                <li><a class="dropdown-item" href="#">Gran Reserva</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink7" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-utensils text-secondary"></i>
+
+                Jamón Ibérico
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink7">
+                <li><a class="dropdown-item" href="#">Bellota</a></li>
+                <li><a class="dropdown-item" href="#">Cebo de Campo</a></li>
+                <li><a class="dropdown-item" href="#">Cebo</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink8" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-wine-bottle text-dark"></i>
+
+                Pimentón
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink8">
+                <li><a class="dropdown-item" href="#">Dulce</a></li>
+                <li><a class="dropdown-item" href="#">Picante</a></li>
+                <li><a class="dropdown-item" href="#">Ahumado</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink9" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                
+                <i class="fa fa-oil-can text-success"></i>
+                Aceites
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink9">
+                <li><a class="dropdown-item" href="#">Virgen</a></li>
+                <li><a class="dropdown-item" href="#">Virgen extra</a></li>
+                <li><a class="dropdown-item" href="#">Virgen corriente</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <main id="hero" class="container-fluid mt-1 w-100 p-1">
+
+        <section>
+
+                        <!-- LINEA 1 -->
+            <article class="row row-cols-1 row-cols-md-4 g-4 mt text-center">
+
+              <div class="col">
+
+                <div class="card   h-100">
+                  <img src="img-cheese/queso1.jpg" id="img" class="card-img-top" alt="Producto 1">
+                  <div class="card-body">
+                    <h5 class="card-title">Dehesa de Los Llanos</h5>
+                    <p class="card-text">Desde 10,09€</p>
+                    <a href="#" class="btn btn-success">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100  ">
+                  <img src="img-cheese/queso2.jpg" id="img" class="card-img-top" alt="Producto 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Tabla de quesos</h5>
+                    <p class="card-text">Desde 31,20€</p>
+                    <a href="#" class="btn btn-success">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card   h-100">
+                  <img src="img-cheese/queso3.jpg" id="img" class="card-img-top" alt="Producto 3">
+                  <div class="card-body">
+                    <h5 class="card-title">1/2 Dehesa</h5>
+                    <p class="card-text">Desde 42,12€</p>
+                    <a href="#" class="btn btn-success">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100  ">
+                  <img src="img-cheese/queso4.jpg" id="img" class="card-img-top" alt="Producto 4">
+                  <div class="card-body">
+                    <h5 class="card-title">1/4 Dehesa</h5>
+                    <p class="card-text">20,99€</p>
+                    <a href="#" class="btn btn-success">Comprar</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </article>
+
+
+                        <!-- LINEA 2 -->
+            <article class="row row-cols-1 row-cols-md-4 g-4 mt-5 text-center">
+
+                <div class="col">
+
+                  <div class="card h-100  ">
+                    <img src="img-cheese/queso5.jpg" id="img" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Dehesa Semi</h5>
+                      <p class="card-text">Desde 8,16€</p>
+                       <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                    <div class="card   h-100">
+                    <img src="img-cheese/queso6.jpg" id="img" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                      <h5 class="card-title">1/2 Dehesa Semi</h5>
+                      <p class="card-text">Desde 36,40€</p>
+                       <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100  ">
+                    <img src="img-cheese/queso7.jpg" id="img" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                      <h5 class="card-title">Chili Campollano</h5>
+                      <p class="card-text">Desde 17,36€
+                      </p>
+                       <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                    <img src="img-cheese/queso8.jpg" id="img" class="card-img-top" alt="Producto 4">
+                    <div class="card-body">
+                      <h5 class="card-title">Trufa Campollano</h5>
+                      <p class="card-text">Desde 31,20€</p>
+                       <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </article>
+
+
+                          <!-- LINEA 3 -->
+              <article class="row row-cols-1 row-cols-md-4 g-4 mt-5 text-center">
+
+                <div class="col">
+                    <div class="card   h-100">
+                    <img src="img-cheese/queso9.jpg" id="img" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Suizo Tête</h5>
+                      <p class="card-text">Desde 24,57€</p>
+                       <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100  ">
+                    <img src="img-cheese/queso10.jpg" id="img" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                      <h5 class="card-title">Cheddar Mexicana</h5>
+                      <p class="card-text">Desde 30,31€</p>
+                       <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                    <div class="card   h-100">
+                    <img src="img-cheese/queso11.jpg" id="img" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                      <h5 class="card-title">Gouda al Pesto</h5>
+                      <p class="card-text">Desde 15,71€</p>
+                       <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="card h-100  ">
+                    <img src="img-cheese/queso12.jpg" id="img" class="card-img-top" alt="Producto 4">
+                    <div class="card-body">
+                      <h5 class="card-title">Quesos Nacionales</h5>
+                      <p class="card-text">Desde 25,00€</p>
+                       <a href="#" class="btn btn-success">Comprar</a>
+                    </div>
+                  </div>
+                </div>
+                
+
+              </article>
+              
+
+        </section>
+    </main>
+
+
+
+
+
+
+    <!-- inicio del footer -->
+
+    <footer id="footer" class="border-dark border-5 border-top">
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+        <!-- conocenos -->
+      <div class="container">
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Conócenos</h5>
+            
+            <ul class="list-unstyled ">
+              <li><a><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-telephone fnt" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+              </svg> 924300094</a></li>
+              <li><a><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-calendar-event" viewBox="0 0 16 16">
+                <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+              </svg> 12:00 - 9:00</a></li>
+              <li><a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg> C. Veredilla, 06830 La Zarza</a></li>
+              <!-- <li><a></a></li> -->
+            </ul>
+          </div>
+
+          <!-- vinos destacados -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Productos Populares</h5>
+
+            <ul class="list-unstyled quick-links">
+              <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Vinos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-success" href="#">Tinto</a></li>
+                      <li><a class="dropdown-item text-success" href="#">Añejo</a></li>
+                      <li><a class="dropdown-item text-success" href="#">Blanco</a></li>
+                      <li><a class="dropdown-item text-success" href="#">Rosado</a></li>
+                      <li><a class="dropdown-item text-success" href="#">Achampado</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                
+                
+                <ul class="list-unstyled quick-links">
+                  <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Queso
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-success" href="#">Tortas del casar</a></li>
+                          <li><a class="dropdown-item text-success" href="#">De la Serena</a></li>
+                          <li><a class="dropdown-item text-success" href="#">Ibores</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    
+                    <ul class="list-unstyled quick-links">
+                      <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Pimentón
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item text-success" href="#">Dulce</a></li>
+                              <li><a class="dropdown-item text-success" href="#">Picante</a></li>
+                              <li><a class="dropdown-item text-success" href="#">Ahumado</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                        
+                        <ul class="list-unstyled quick-links">
+                          <ul class="navbar-nav mb-2 mb-lg-0 me-1">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Lomo
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item text-success" href="#">Embuchado</a></li>
+                                  <li><a class="dropdown-item text-success" href="#">Duroc</a></li>
+                                  <li><a class="dropdown-item text-success" href="#">Ibérico</a></li>
+                                  <li><a class="dropdown-item text-success" href="#">Bellota</a></li>
+                                </ul>
+                              </li>
+                            </ul>
+            </ul>
+          </div>
+
+
+
+          <!-- newletter -->
+          <div class="col-xs-12 col-sm-4 col-md-4">
+
+
+            <div class="panel panel-success text-light">
+              <div class="panel-heading quick-links">
+                  <h5 class="panel-title ">
+                      <span class="glyphicon glyphicon-envelope"></span>  Suscribete
+                  </h5>
+              </div>
+              <div class="panel-body">
+                  <div class="media">
+                      <div class="media-body">
+                          <p class="margin-top-10 margin-bottom-20">
+                            Escribe tu e-mail y entérate antes que nadie de nuestras ofertas.
+                          </p>
+                          <form>
+                              <div class="form-group">
+                                  <input type="email" class="form-control" id="newsletter-email" placeholder="Email">
+                              </div>
+                              <button type="submit" class="btn btn-default btn-block btn-success mt-2">Suscribirse</button>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+
+
+
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-4">
+
+
+
+
+          </div>
+        </div>
+        <div>
+
+        </div>
+
+        <!-- redes sociales -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02"><i class="fa fa-android"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.fiverr.com/share/qb8D02" target="_blank"><i class="fa fa-apple"></i></a></li>
+            </ul>
+          </div>
+          <hr>
+        </div>
+
+
+        <!-- copyrigth -->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <p class="h6">&copy;AtopeExtremeño. Todos los derechos reservados.</p>
+          </div>
+          <hr>
+        </div>
+      </div>
+
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script>
+    $(document).ready(function() {
+    $('#myCarousel').carousel({
+	    interval: 100000
+	})
+});
+  </script>
+</body>
+
+</html>
